@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+.header{
+    background: #000;
+   
+  }
+#header  a{ 
+    /* tous les liens a à l'intérieur de la balise nav */
+     float:center; /* effet flottant */
+     text-decoration:wavy; /* pas d'héritage avec effet souligné */
+     color: #D1E8E2; /* couleur du texte */
+     background: #0a0909; /* couleur de fond */
+     height: 100px; /* hauteur */
+     line-height: 40px; /* interligne */
+     padding: 0px 10px; /* marges intérieur */
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* police d'écriture */
+     font-size: 13px; /* taille du texte */
+     transition: .5s; /* temps de transition lors du hover : une demi seconde */
+     position: relative;
+     left: 40%;
+     }
+ #header  a:hover{ /* tous liens lors du survol dans la balise nav */
+     background:#558FAD; /* couleur de fond */
+     padding-top: 10px;
+     padding-bottom: 10px;
+     }
+ #titre{
+       font-family:'Times New Roman', Times, serif;
+       color: #fff;
+       text-align: center;
+    
+ }
+body{
+   /* background-image:url("/images/télécharger\ \(48\).jpg") ;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Nerko One', cursive;
+    /*background-image: url("./patterm.png");*/
+
+}
+
+h1{
+    color: #000000;
+    text-align: center;
+    font-size: xxx-large;
+}
+
+form{
+    margin:0px;
+}
+
+.form-div{
+    display:flex;
+    justify-content: space-around;
+}
+
+fieldset{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    border: 0.8em #1a4050 double;
+    border-radius: 30px;
+    height: fit-content;
+    padding: 1em 2em 2em 2em;
+    background-color: #338995;
+}
+
+legend{
+    font-size: xx-large;
+    color: #000000;
+}
+
+label{
+    font-size: x-large;
+    color: #000000;
+    margin-bottom: 0.2em;
+}
+
+input{
+    border: 3px solid #1a4050;
+    border-radius: 15px;
+    padding: 7px 14px;
+    background-color: rgba(255, 255, 255, 0.58);
+}
+
+input[placeholder]{
+    color: #000000;
+    font-size: 20px;
+}
+
+input[type="range"]{
+    -webkit-appearance: none;
+    border-radius: 5px;
+    background: rgb(245 245 245 / 58%);
+    width: 80%;
+}
+
+textarea{
+    border: 3px solid #1a4050;
+    border-radius: 15px;
+    padding: 7px 14px;
+    background-color: rgb(245 245 245 / 58%);
+    color: #000000;
+    font-size: 20px;
+}
+
+.div-salaire{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.DFbottom{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.bottom_F{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 1em 2em;
+}
+
+.bottom_F > input[type="checkbox"]{
+    margin-right: 1em;
+}
+
+.bottom_F > label{
+    margin-right:1em;
+}
+
+.bottom_F > label > a{
+    color: #457e97;
+    text-decoration: none;
+}
+
+button{
+    font-size: x-large;
+    background-color: #77a9bc;
+    border: 0.2em solid rgb(245 245 245 / 58%);
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 15px 20px;
+    font-weight: 700;
+}

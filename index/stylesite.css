@@ -1,0 +1,826 @@
+*{
+  padding: 0%;
+  margin: 0%;
+
+}
+.contain{
+    background-image: url("/images/télécharger\ \(48\).jpg");
+    /* filter: blur(5px);*/
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+  background: #000;
+ 
+}
+.fleche {
+ 
+  position: relative;
+  animation-name: fleche;
+  animation-duration: 2s;  
+  animation-delay: 2s;
+  animation-fill-mode: backwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fleche {
+  from {top: -50px}
+  to {top: 100px;}
+}
+.fleche{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ padding-bottom: 50px;
+ 
+}
+
+
+#header  a{ 
+   /* tous les liens a à l'intérieur de la balise nav */
+    float:center; /* effet flottant */
+    text-decoration:wavy; /* pas d'héritage avec effet souligné */
+    color: #D1E8E2; /* couleur du texte */
+    background: #0a0909; /* couleur de fond */
+    height: 200px; /* hauteur */
+    line-height: 40px; /* interligne */
+    padding: 0px 10px; /* marges intérieur */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* police d'écriture */
+    font-size: 13px; /* taille du texte */
+    transition: .5s; /* temps de transition lors du hover : une demi seconde */
+    position: relative;
+    left: 40%;
+    }
+#header  a:hover{ /* tous liens lors du survol dans la balise nav */
+    background:#558FAD; /* couleur de fond */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+#titre{
+      font-family:'Times New Roman', Times, serif;
+      color: #fff;
+      text-align: center;
+   
+}
+#textbegin{
+      display: flex;
+      position: relative;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 200%;
+
+      font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.begin{
+  display: flex;
+  height: 88%;
+  align-items:center;
+ 
+}
+.textbegin{
+  text-align: center;
+  justify-content: center;
+padding-top: 150px;
+padding-bottom: 100px;
+}
+#exbutton{
+  width: 100px;
+  color:#000 ;
+  padding: 12px;
+  background: #fff;
+  border: 0;
+  border-radius: 20px;/*forme ronde*/
+  outline: none;
+  margin-top:30px ;
+}
+#exbutton:hover{
+  transform: scale(1.2);
+}
+
+.containerbegin{
+  display: flex;
+  align-items: center;
+}
+
+.imgbegin{
+  float: right;
+}
+ .imgbegin,.containerbegin{
+
+text-align: justify;
+ }
+
+
+
+
+.titlecol{
+  text-align: center;
+  padding: 0% 16% 3% 16%;
+  font-size: 19px;
+}
+
+
+
+
+
+
+.titlelivre{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 30px;
+}
+.menulivre{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom:15% ;
+ 
+}
+.livre1{
+  width: 200px; ;
+  height: 230px;
+  display:inline-block;
+  border-radius: 10px;
+  box-shadow:4px 7px 7px 0px  #000;
+  padding: 20px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-image: url(/images/Children\ Illustrations.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.livre1 h4{
+  color: snow;
+  background-color: #558FAD;
+  text-align: center;
+  border-radius: 10px;
+}
+.livre2{
+  width: 200px; ;
+  height: 230px;
+  display:inline-block;
+  border-radius: 10px;
+  box-shadow:4px 7px 7px 0px  #000;
+  padding: 20px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-image: url(/images/Paco\ Yao.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.livre2 h4{
+  color: snow;
+  background-color: #558FAD;
+  text-align: center;
+  border-radius: 10px;
+}
+.livre3{
+  width: 200px; ;
+  height: 230px;
+  display:inline-block;
+  border-radius: 10px;
+  box-shadow:4px 7px 7px 0px  #000;
+  padding: 20px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-image: url(/images/riwayat/télécharger\ \(38\).jpg);
+  background-position: center;
+  background-size: cover;
+}
+.livre3 h4{
+  color: snow;
+  background-color: #558FAD;
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+.livre1:hover{
+  transform: scale(1.3);
+}
+.livre2:hover{
+  transform: scale(1.3);
+}
+.livre3:hover{
+  transform: scale(1.3);
+}
+
+
+.trousse{
+  width: 200px; ;
+  height: 230px;
+  display:inline-block;
+  border-radius: 10px;
+  box-shadow:4px 7px 7px 0px  #000;
+  padding: 20px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-image: url(/images/cartable/Coudre\ une\ trousse\ scolaire\ bleue\ à\ petits\ pois.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.trousse h4{
+  color: snow;
+  background-color: #558FAD;
+  text-align: center;
+  border-radius: 10px;
+}
+.cartable{
+  width: 200px; ;
+  height: 230px;
+  display:inline-block;
+  border-radius: 10px;
+  box-shadow:4px 7px 7px 0px  #000;
+  padding: 20px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-image: url(/images/cartable/télécharger\ \(31\).jpg);
+  background-position: center;
+  background-size: cover;
+}
+.cartable h4{
+  color: snow;
+  background-color: #558FAD;
+  text-align: center;
+  border-radius: 10px;
+}
+.trousse:hover{
+  transform: scale(1.3);
+}
+.cartable:hover{
+  transform: scale(1.3);
+}
+
+
+
+
+
+
+
+.col{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.col h4{
+  color: snow;
+  background-color: #558FAD;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.img1{
+  width: 200px; ;
+  height: 230px;
+  display:inline-block;
+  border-radius: 10px;
+  box-shadow:4px 7px 7px 0px  #000;
+  padding: 20px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-image: url(/images/cahier/e80d1a1f-d1c8-483f-ad03-c64f5f949132.jpg);
+  background-position: center;
+  background-size: cover;
+
+}
+.img2{
+  width: 200px; ;
+  height: 230px;
+  display:inline-block;
+  border-radius: 10px;
+  box-shadow:4px 7px 7px 0px  #000;
+  padding: 20px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-image: url(/images/Dani\ Notes.jpg);
+  background-position: center;
+  background-size: cover;
+
+}
+.img3{
+  width: 200px; ;
+  height: 230px;
+  display:inline-block;
+  border-radius: 10px;
+  box-shadow:4px 7px 7px 0px  #000;
+  padding: 20px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-image: url(/images/télécharger\ \(13\).jpg);
+  background-position: center;
+  background-size: cover;
+
+}
+.img4{
+  width: 200px; ;
+  height: 230px;
+  display:inline-block;
+  border-radius: 10px;
+  box-shadow:4px 7px 7px 0px  #000;
+  padding: 20px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-image: url(/images/cartable/télécharger\ \(31\).jpg);
+  background-position: center;
+  background-size: cover;
+
+}
+.img5{
+  width: 200px; ;
+  height: 230px;
+  display:inline-block;
+  border-radius: 10px;
+  box-shadow:4px 7px 7px 0px  #000;
+  padding: 20px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-image: url(/images/Pendaflex\ Colored\ File\ Folders\ 1_3\ CutTop\ Tab\ Letter\ Navy\ Blue_Light\ Navy\ Blue\ 100_Box.jpg);
+  background-position: center;
+  background-size: cover;
+
+}
+.img5:hover{
+  transform: scale(1.03);/*leffet zoom*/
+}
+.img1:hover{
+  transform: scale(1.03);/*leffet zoom*/
+}
+.img2:hover{
+  transform: scale(1.03);/*leffet zoom*/
+}
+.img3:hover{
+  transform: scale(1.03);/*leffet zoom*/
+}
+.img4:hover{
+  transform: scale(1.03);/*leffet zoom*/
+}
+
+
+
+
+
+
+
+
+
+/*PRODUCT*/
+#productbody{
+  background-image: url("./images/télécharger\ \(5\).jpg");
+}
+.nom1{
+  text-align: center;
+  
+}
+.element {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   /* width: 100%;
+    height: 150px;
+    margin: 10px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  } */
+  .card{
+   
+    background-color: #0a0909;
+  }
+  }
+  .card:hover{
+    transform: scale(1.03);/*leffet zoom*/
+  }
+/*
+  .element {
+    background-color: rgba(182, 182, 182, 0.2);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 150px;
+    margin: 10px;
+    padding-top: 50%;
+    padding-bottom: 50%;
+   
+  }*/
+  .image1 {
+    height: 200px;
+    width: 200px;
+    border: 2px solid #8E8D81;/*le cadre des photos*/
+    border-radius: 50px; /*l'effet rend dans les cornes*/
+    box-shadow:4px 7px 7px 4px  #3a220d;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  .image2{
+    height: 200px;
+    width: 200px;
+    border: 2px solid #8E8D81;/*le cadre des photos*/
+    border-radius: 50px;
+    box-shadow:4px 7px 7px 4px #3a220d;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  .image3{
+    height: 200px;
+    width: 200px;
+    border: 2px solid #8E8D81;/*le cadre des photos*/
+    border-radius: 50px; /*l'effet rend dans les cornes*/
+    box-shadow:4px 7px 7px 4px  #3a220d;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  .image4{
+    height: 200px;
+    width: 200px;
+    border: 2px solid #8E8D81;/*le cadre des photos*/
+    border-radius: 50px; /*l'effet rend dans les cornes*/
+    box-shadow:4px 7px 7px 4px #3a220d;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  .image5{
+    height: 200px;
+    width: 200px;
+    border: 2px solid #8E8D81;/*le cadre des photos*/
+    border-radius: 50px; /*l'effet rend dans les cornes*/
+    box-shadow:4px 7px 7px 0px #3a220d;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  .image6{
+    height: 200px;
+    width: 200px;
+    border: 2px solid #8E8D81;/*le cadre des photos*/
+    border-radius: 50px; /*l'effet rend dans les cornes*/
+    box-shadow:4px 7px 7px 4px #3a220d;
+    cursor: pointer;
+    transition: 400ms;
+  }
+
+
+
+  /*livres*/
+  ul{
+    list-style: none;
+  }
+  .linkwhat{
+  text-decoration: none;
+  }
+  .container{
+    background-image: url("images/background2_page-0001.jpg");
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-repeat: repeat-y;
+   
+   
+  }
+  .carliv{
+    background-image: url("/images/télécharger\ \(48\).jpg");
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+  }
+
+  .carliv{
+    width: 350px;
+    height: 610px;
+    background-color: #88C2D5;
+    border-radius: 10px;
+    box-shadow: 2px 10px 12px rgba(0, 0, o, o.5);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 20px 10px;
+  }
+  
+  
+  .modele{
+    height: 250px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+  }
+  .details p{
+    color: snow;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .details h1{
+    color: #437A3D;
+
+  }
+  .histoire
+  {
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 20px;
+  }
+
+  .carliv:hover{
+    background: #017293;
+    transform-style: preserve-3d;
+    transform: scale(1.02);
+    transition: all ease 0.1s;
+}
+
+.carliv:hover .histoire{
+  color: snow;
+  transition: all ease 0.1s;
+}
+.carliv:hover .price{
+  color: snow;
+  transition: all ease 0.1s;
+}
+
+
+
+
+
+
+
+/*Contact*/
+.contact-body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'poppins',sans-serif;
+}
+.contact-form{
+  position: relative;
+  min-height: 100vh;
+  z-index: 0;
+  background-image: url("/images/Download\ premium\ image\ of\ Light\ blue\ distorted\ geometric\ square\ tile\ texture\ background\ by\ Nunny\ about\ light\ blue\ distorted\,\ blue\ distort\ grid\,\ instagram\ story\,\ iphone\ wallpaper\ geometric\,\ and\ blue\ 2628438.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px;
+  justify-content: center;
+  display: grid;
+  grid-template-rows: 1fr cauto 1fr;
+  align-items: center;
+}
+.container-contact{
+  max-width: 700px;
+  margin-top: 0 auto;
+}
+.contact-form h1{
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #017293;
+  font-family:'poppins' ;
+}
+.contact-form h2{
+  line-height: 40px;
+  margin-bottom: 5px;
+  font-size: 30px;
+  font-weight: 500;
+  color: #017293;
+  text-align: center;
+}
+.contact-form .main{
+  position: relative;
+  display: flex;
+  margin: 30px 0;
+}
+.content{
+  flex-basis: 50%;
+  padding: 3em 3em;
+  background: #fff;
+  box-shadow: 2px 9px 49px -17px rgba(0, 0, 0, 0.1);
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.form-img{
+  flex-basis: 50%;
+  background: #f0f4f8;
+  background-size: cover;
+  padding: 40px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8pxs;
+  align-items: center;
+  display: grid;
+}
+.form-img img{
+  max-width: 100%;
+}
+.btn,
+button,
+textarea,
+input{
+  border-radius: 35px;
+}
+.btn:hover,
+button:hover{
+  color: #0a0909;
+  transition: 0.5s ease;
+}
+.contact-form form{
+  margin: 30px 0;
+}
+
+.contact-form input,textarea{
+  outline:none;
+  margin-bottom: 15px;
+  font-stretch: 16px;
+  color: #999;
+  padding: 14px 20px;
+  width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+  border: none;
+  background: #fcfcfc;
+  transition: 0.3s ease;
+}
+.contact-form input:focus{
+  background: transparent;
+  border: 1px solid #017293;
+}
+.contact-form button{
+  font-size: 18px;
+  color: #fff;
+  width: 100%;
+  background: #558FAD;
+  font-weight: 600;
+  transition: 0.3 ease;
+  padding: 14px 15px;
+}
+@media(max-width:736px){
+  .contact-form .main{
+    flex-direction: column;
+  }
+  .contact-form img{
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .form-img{
+    border-radius: 0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    order: 2;
+  }
+  .content{
+    order:2;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+}
+
+
+/*about*/
+
+
+.about-body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-image: url("/images/télécharger\ \(48\).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-about{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.column-about{
+ 
+  width: 300px; ;
+  height: 350px;
+  display:inline-block;
+  border-radius: 10px;
+  box-shadow:4px 7px 7px 0px  #000;
+  padding: 20px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  
+}
+.column-about:hover{
+  transform: scale(1.03);
+ 
+}
+
+.img-about{
+  width: 120px ;
+  height: 120px;
+}
+
+.about-body {
+  box-sizing: border-box;
+}
+
+.about-body, .about-body:before, .about-body:after {
+  box-sizing: inherit;
+}
+
+/*.column-about {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}*/
+
+.card-about {
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+
+  color: black;
+}
+
+.container-about {
+  padding: 0 16px;
+}
+.team{
+  padding-top: 20px;
+}
+.container-about::after, .row-about::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title-about {
+  color: grey;
+}
+
+.button-about {
+  border: none;
+  outline: 0;
+  display:inline-block;
+  padding: 8px;
+  color: black;
+  background-color: #558FAD;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.button-about:hover {
+  background-color: #88C2D5;
+}
+
+@media screen and (max-width: 650px) {
+  .column-about {
+    width: 100%;
+    display: block;
+  }
+}
+
+
+/*footer*/
+.footer{
+
+  color: #000;
+  padding: 50px 50px;
+  text-align: center;
+  justify-content: center;
+  background-color: rgba(182, 182, 182, 0.2);
+  /*background-color:#000;*/
+}
+
+.footer h1{
+  padding-bottom: 20px;
+}

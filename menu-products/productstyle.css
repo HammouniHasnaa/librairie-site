@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  }
+ 
+  .header{
+    background: #000;
+   
+  }
+  #header  a{ 
+    /* tous les liens a à l'intérieur de la balise nav */
+     float:center; /* effet flottant */
+     text-decoration:wavy; /* pas d'héritage avec effet souligné */
+     color: #D1E8E2; /* couleur du texte */
+     background: #0a0909; /* couleur de fond */
+     height: 200px; /* hauteur */
+     line-height: 40px; /* interligne */
+     padding: 0px 10px; /* marges intérieur */
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* police d'écriture */
+     font-size: 13px; /* taille du texte */
+     transition: .5s; /* temps de transition lors du hover : une demi seconde */
+     position: relative;
+     left: 40%;
+     }
+ #header  a:hover{ /* tous liens lors du survol dans la balise nav */
+     background:#558FAD; /* couleur de fond */
+     padding-top: 10px;
+     padding-bottom: 10px;
+     }
+     #titre{
+      font-family:'Times New Roman', Times, serif;
+      color: #fff;
+      text-align: center;
+   
+}
+
+  .container {
+    /*background-image: url("/images/télécharger\ \(48\).jpg");*/
+    padding-top: 50px;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .product-con {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 0.5rem;
+  }
+  
+  .product-item {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+    
+  }
+  
+  .product-item:hover {
+    outline: 1px solid red;
+  }
+  
+  .product-detail {
+    padding: 0.5rem;
+  }
+  
+  .product-img img {
+  display: flex;
+   align-items: center;
+   
+    width: 235px;
+    height: 200px;
+  }
+  
+  .product-price {
+    padding: 0.5rem;
+    font-size: 18px;
+  }
+
+  .logo{
+    width: 200px;
+  }
